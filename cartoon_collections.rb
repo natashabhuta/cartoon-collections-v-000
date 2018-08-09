@@ -21,7 +21,5 @@ def find_the_cheese(ingredients)
   ingredients.include?(cheese_types)
   if true 
     return cheese_types.first
-  else 
-    return nil
 end
 end 
