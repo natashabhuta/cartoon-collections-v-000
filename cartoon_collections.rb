@@ -12,7 +12,7 @@ end
 end
 
 def long_planeteer_calls(calls)
-  any? calls.size > 4 
+  calls.any? calls.size > 4 
   
   end 
 end
