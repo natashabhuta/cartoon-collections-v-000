@@ -6,7 +6,8 @@ end
 end 
 
 def summon_captain_planet(planeteer_calls)
-  summons = planeteer_calls.map! {|planeteer_calls| planeteer_calls.capitalize}
+  summons = []
+  planeteer_calls.map! {|planeteer_calls| planeteer_calls.capitalize} >> summons
   summons.each {|planeteer_calls| puts summons + '!'}
 end 
 
