@@ -1,5 +1,4 @@
 def roll_call_dwarves(names) # code an argument here
-  new_roll_call = []
   names.each_with_index {|name, index|} << new_roll_call
 end 
 new_roll_call
