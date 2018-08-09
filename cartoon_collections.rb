@@ -1,6 +1,6 @@
 def roll_call_dwarves(names) # code an argument here
   roll_call = []
- roll_call(names) do |name|
+ roll_call(names).collect do |name|
    puts name
 end
 
